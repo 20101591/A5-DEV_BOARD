@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevBoard</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- daisyui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- font style -->
+    <style>
+        .poppins-font {
+            font-family: "Poppins", sans-serif;
+        }
+    </style>
+</head>
+
+<body id="bg-Color" class="bg-indigo-300 poppins-font p-10">
+    <header class=" bg-white rounded-2xl mb-10">
+        <nav class="flex justify-between items-center p-3 ">
+            <!-- left nav -->
+            <div class="flex items-center justify-center gap-2 p-2 text-4xl">
+                <img src="assets/logo.png" alt="">
+                <h1>Dev<span class="font-bold">Board</span></h1>
+            </div>
+            <!-- right nav -->
+            <div id="back-btn">
+                <button class="btn btn-primary">Back to Desk</button>
+            </div>
+        </nav>
+    </header>
+    <main class="poppins-font">
+        <div class="flex justify-center">
+            <h1 class="font-bold text-xl">Blogs</h1>
+        </div>
+        <div class="bg-white rounded-lg p-10 my-10">
+            <div>
+                <h1 class="font-bold">Question-1: What are the different ways to select an element in the DOM?</h1>
+            </div>
+            <div class="pt-5">
+                Using either
+                (i) getElement appraoch (e.g: getElementById(), getElementsByClassName, getElementByTagName() etc)
+                (ii) By Using querySelector or querySelectorAll
+
+            </div>
+
+        </div>
+        <div class="bg-white rounded-lg p-10 my-10">
+            <div>
+                <h1 class="font-bold">Question-2: What is the difference between innerHTML, innerText, and textContent ?</h1>
+            </div>
+            <div class="pt-5">
+                Using either
+                (i) getElement appraoch (e.g: getElementById(), getElementsByClassName, getElementByTagName() etc)
+                (ii) By Using querySelector or querySelectorAll
+
+            </div>
+
+        </div>
+        <div class="bg-white rounded-lg p-10 my-10">
+            <div>
+                <h1 class="font-bold">Question-3: What is event delegation in the DOM?</h1>
+            </div>
+            <div class="pt-5">
+                Using either
+                (i) getElement appraoch (e.g: getElementById(), getElementsByClassName, getElementByTagName() etc)
+                (ii) By Using querySelector or querySelectorAll
+
+            </div>
+
+        </div>
+        <div class="bg-white rounded-lg p-10 my-10">
+            <div>
+                <h1 class="font-bold">Question-4: What is event bubbling in the DOM?</h1>
+            </div>
+            <div class="pt-5">
+                Using either
+                (i) getElement appraoch (e.g: getElementById(), getElementsByClassName, getElementByTagName() etc)
+                (ii) By Using querySelector or querySelectorAll
+
+            </div>
+
+        </div>
+        <div class="bg-white rounded-lg p-10 my-10">
+            <div>
+                <h1 class="font-bold">Question-5: How do you create, add, and remove elements using JavaScript?</h1>
+            </div>
+            <div class="pt-5">
+                Using either
+                (i) getElement appraoch (e.g: getElementById(), getElementsByClassName, getElementByTagName() etc)
+                (ii) By Using querySelector or querySelectorAll
+
+            </div>
+
+        </div>
+        <div class="bg-white rounded-lg p-10 my-10">
+            <div>
+                <h1 class="font-bold">Question-1: What are the different ways to select an element in the DOM?</h1>
+            </div>
+            <div class="pt-5">
+                Using either
+                (i) getElement appraoch (e.g: getElementById(), getElementsByClassName, getElementByTagName() etc)
+                (ii) By Using querySelector or querySelectorAll
+
+            </div>
+
+        </div>
+
+    </main>
+</body>
+<script>
+    document.getElementById("back-btn").addEventListener("click", function (event) {
+        window.location.href = "index.html";
+    })
+</script>
+
+</html>

@@ -35,7 +35,7 @@ for (let i = 0; i < totalButtons.length; i++) {
     alert("You have completed the task "+cardTitle+" at " +new Date().toLocaleTimeString());
     event.target.disabled = true;
     // history
-    const taskHistory= document.createElement("P");
+    const taskHistory= document.createElement("span");
     taskHistory.innerText = ("You have completed the task "+ cardTitle +" at "+ new Date().toLocaleTimeString());
     taskHistory.style.padding = "10px";
     taskHistory.style.margin= "10px";
@@ -53,6 +53,18 @@ for (let i = 0; i < totalButtons.length; i++) {
     }
 });   
 }
+
+// history button
+document.getElementById("history-btn").addEventListener("click", function (event){
+    document.getElementById("task-history").innerHTML="";  
+})
+
+// discover
+document.getElementById("btn-discover").addEventListener ("click", function (event){
+    window.location.href="blog.html"; 
+})
+
+
 
 
 

@@ -61,7 +61,7 @@
 
                     </div>
                     <!-- discover div -->
-                    <div
+                    <div id="btn-discover"
                         class="rounded-xl bg-gradient-to-r from-indigo-700 to-indigo-300 p-2 flex items-center gap-2.5">
                         <img src="assets/board.png" alt="">
                         <h1 class="text-white text-3xl">Discover Something New Today!</h1>
@@ -228,15 +228,15 @@
             </section>
         </section>
         <!-- right side -->
-        <section id="task-history" class=" w-3/5 py-5 justify-center items-center bg-white rounded-xl">
+        <section class=" w-3/5 py-5 justify-center items-center bg-white rounded-xl">
             <div class="flex justify-center items-center gap-4 py-2">
                 <img class="size-7" src="assets/activity.png" alt="">
                 <h1>Activity log</h1>
             </div>
-            <div class="pb-5 flex justify-center items-center">
-                <button class=" btn btn-primary">Clear History</button>
+            <div class="pb-5 flex justify-center items-center border-b-2 border-indigo-300 border-dashed">
+                <button id="history-btn" class="btn btn-primary">Clear History</button>
             </div>
-            <div class="bg-indigo-300 flex justify-center items-center border-t-2 border-dashed border-indigo-500">
+            <div id="task-history" class="bg-white flex flex-col justify-center items-center border-dashed">
             </div>
         </section>
     </main>
