@@ -22,7 +22,7 @@
     </style>
 </head>
 
-<body class="bg-indigo-300 poppins-font p-10">
+<body id="bg-Color" class="bg-indigo-300 poppins-font p-10">
     <header class=" bg-white rounded-2xl mb-10">
         <nav class="flex justify-between items-center p-3 ">
             <!-- left nav -->
@@ -37,7 +37,7 @@
                     <h1 class="text-3xl font-bold">23</h1>
                 </div>
                 <!-- theme button -->
-                <div class="bg-indigo-300 rounded-full p-2">
+                <div id="theme-btn" class="bg-indigo-300 rounded-full p-2">
                     <img class="" src="assets/theme-btn.png" alt="">
                 </div>
             </div>
@@ -55,8 +55,8 @@
                             <img src="assets/checkbox.png" alt="">
                         </div>
                         <div>
-                            <h1 class="text-xl opacity-80">Task Assigned</h1>
-                            <h1 class="font-bold text-3xl">6</h1>
+                            <h1 class="text-base opacity-80">Task Assigned</h1>
+                            <h1 id="task-number" class="font-bold text-3xl"></h1>
                         </div>
 
                     </div>
@@ -71,9 +71,7 @@
                         <div class="rounded-full p-3 bg-white">
                             <img src="assets/calender.png" alt="">
                         </div>
-                        <div>
-                            <h1 class="text-xl">Wed ,</h1>
-                            <h1 class="font-bold text-xl">Jul 28 2025 </h1>
+                        <div id="get-Date" class="font-semibold text-xl">
                         </div>
                     </div>
                 </section>
@@ -85,7 +83,7 @@
                             <div class="bg-white rounded-lg w-28">
                                 <p class="text-base p-2">Shop Ease</p>
                             </div>
-                            <h2 class="text-2xl py-4">Fix Mobile Button Issue</h2>
+                            <h2 class="card-title text-2xl py-4">Fix Mobile Button Issue</h2>
                             <div class="bg-white rounded-lg overflow-hidden max-h-16 p-3 mb-5">
                                 <p class="text-base opacity-50 ">Debug using Chrome DevTools, check for overlapping
                                     elements, and ensure onClick works properly
@@ -100,7 +98,7 @@
 
 
                                 <div class="">
-                                    <button class="btn btn-primary">Completed</button>
+                                    <button class="btn btn-primary btn-complete">Completed</button>
                                 </div>
                             </div>
                         </div>
@@ -111,7 +109,7 @@
                             <div class="bg-white rounded-lg w-28">
                                 <p class="text-base p-2">CloudSync</p>
                             </div>
-                            <h2 class="text-2xl py-4">Add Dark Mode</h2>
+                            <h2 class="card-title text-2xl py-4">Add Dark Mode</h2>
                             <div class="bg-white rounded-lg overflow-hidden max-h-16 p-3 mb-5">
                                 <p class="text-base opacity-50 ">Store the user's preference in localStorage, update CSS
                                     variables dynamically, and apply a smooth transition effect</p>
@@ -125,7 +123,7 @@
 
 
                                 <div class="">
-                                    <button class="btn btn-primary">Completed</button>
+                                    <button class="btn btn-primary btn-complete">Completed</button>
                                 </div>
                             </div>
                         </div>
@@ -136,7 +134,7 @@
                             <div class="bg-white rounded-lg w-28">
                                 <p class="text-base p-2">SwiftPay</p>
                             </div>
-                            <h2 class="text-2xl py-4">Optimize Home page</h2>
+                            <h2 class="card-title text-2xl py-4">Optimize Home page</h2>
                             <div class="bg-white rounded-lg overflow-hidden max-h-16 p-3 mb-5">
                                 <p class="text-base opacity-50 ">Debug using Chrome DevTools, check for overlapping
                                     elements, and ensure onClick works properly
@@ -149,7 +147,7 @@
                                     <p class="text-bold">21 March 2025</p>
                                 </div>
                                 <div class="">
-                                    <button class="btn btn-primary">Completed</button>
+                                    <button class="btn btn-primary btn-complete">Completed</button>
                                 </div>
                             </div>
                         </div>
@@ -160,7 +158,7 @@
                             <div class="bg-white rounded-lg w-28">
                                 <p class="text-base p-2">Meta</p>
                             </div>
-                            <h2 class="text-2xl py-4">Add new emoji 🤲</h2>
+                            <h2 class="card-title text-2xl py-4">Add new emoji 🤲</h2>
                             <div class="bg-white rounded-lg overflow-hidden max-h-16 p-3 mb-5">
                                 <p class="text-base opacity-50 ">Debug using Chrome DevTools, check for overlapping
                                     elements, and ensure onClick works properly
@@ -173,7 +171,7 @@
                                     <p class="text-bold">21 March 2025</p>
                                 </div>
                                 <div class="">
-                                    <button class="btn btn-primary">Completed</button>
+                                    <button class="btn btn-primary btn-complete">Completed</button>
                                 </div>
                             </div>
                         </div>
@@ -184,7 +182,7 @@
                             <div class="bg-white rounded-lg w-28">
                                 <p class="text-base p-2">Google LLC</p>
                             </div>
-                            <h2 class="text-2xl py-4">Integrate OpenAI API</h2>
+                            <h2 class="card-title text-2xl py-4">Integrate OpenAI API</h2>
                             <div class="bg-white rounded-lg overflow-hidden max-h-16 p-3 mb-5">
                                 <p class="text-base opacity-50 ">Debug using Chrome DevTools, check for overlapping
                                     elements, and ensure onClick works properly
@@ -197,7 +195,7 @@
                                     <p class="text-bold">21 March 2025</p>
                                 </div>
                                 <div class="">
-                                    <button class="btn btn-primary">Completed</button>
+                                    <button class="btn btn-primary btn-complete">Completed</button>
                                 </div>
                             </div>
                         </div>
@@ -208,7 +206,7 @@
                             <div class="bg-white rounded-lg w-28">
                                 <p class="text-base p-2">Glassdoar</p>
                             </div>
-                            <h2 class="text-2xl py-4">Improve Job searching</h2>
+                            <h2 class="card-title text-2xl py-4">Improve Job searching</h2>
                             <div class="bg-white rounded-lg overflow-hidden max-h-16 p-3 mb-5">
                                 <p class="text-base opacity-50 ">Debug using Chrome DevTools, check for overlapping
                                     elements, and ensure onClick works properly
@@ -221,7 +219,7 @@
                                     <p class="text-bold">21 March 2025</p>
                                 </div>
                                 <div class="">
-                                    <button class="btn btn-primary">Completed</button>
+                                    <button class="btn btn-primary btn-complete">Completed</button>
                                 </div>
                             </div>
                         </div>
@@ -230,7 +228,7 @@
             </section>
         </section>
         <!-- right side -->
-        <section class=" w-2/4 px-10 py-5 justify-center items-center bg-white rounded-xl">
+        <section id="task-history" class=" w-3/5 py-5 justify-center items-center bg-white rounded-xl">
             <div class="flex justify-center items-center gap-4 py-2">
                 <img class="size-7" src="assets/activity.png" alt="">
                 <h1>Activity log</h1>
@@ -238,11 +236,10 @@
             <div class="pb-5 flex justify-center items-center">
                 <button class=" btn btn-primary">Clear History</button>
             </div>
-            <div class="pt-5 flex justify-center items-center border-t-2 border-dashed border-indigo-500">
-<p>dim khao</p>
+            <div class="bg-indigo-300 flex justify-center items-center border-t-2 border-dashed border-indigo-500">
             </div>
         </section>
     </main>
 </body>
-
+<script src="script/utilities.js"> </script>
 </html>
